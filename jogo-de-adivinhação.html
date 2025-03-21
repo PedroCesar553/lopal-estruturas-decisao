@@ -10,28 +10,28 @@
 <body>
     <script>
         // O computador pensa em um número aleatório entre 1 e 40
-        let numeroAleatorio = Math.random() * 40;
-        let numeroAleatorioInteiro = Math.round(numeroAleatorio); // Arredonda para o inteiro mais próximo
-
-        // O jogador tenta adivinhar o número
-        //let palpite = prompt("Tente adivinhar o número que pensei entre 1 e 40:");
-        let resposta = prompt("Digite um número de 1 a 10: ");
-        let resultado = (resposta >= 1 && resposta <= 10) ?
-            (resposta == numeroAleatorioInteiro) ?
-                "Parabéns! Você acertou" :
-                "Você errou! o número que eu pensei era " +
-                numeroAleatorioInteiro + "!" :
-            "Numero invalido "
-        document.write(resultado);
-
-
-
-        // Verifica se o número digitado é igual ao número aleatório
-        //if (palpite == numeroAleatorioInteiro) {  //Código para fazer uma comparação
-        // document.write("Parabéns! Acertou cara ! O número era " + numeroAleatorioInteiro);
-        //} else {
-        //document.write("Perdeu playboy kkk! Eu pensei no número " + numeroAleatorioInteiro);
-        //}
+let numeroAleatorio = Math.random() * 40;
+let numeroAleatorioInteiro = Math.round(numeroAleatorio); // Arredonda para o inteiro mais próximo
+ 
+// O jogador tenta adivinhar o número
+//let palpite = prompt("Tente adivinhar o número que pensei entre 1 e 40:");
+let resposta = prompt("Digite um número de 1 a 10: ");
+let resultado = (resposta >=1 && resposta <=10) ?
+                  (resposta == numeroAleatorioInteiro) ?    
+                  "Parabéns! Você acertou" :
+                  "Você errou! o número que eu pensei era " +
+                  numeroAleatorioInteiro + "!":
+                  "Numero invalido "
+    document.write(resultado);
+               
+                 
+                 
+// Verifica se o número digitado é igual ao número aleatório
+//if (palpite == numeroAleatorioInteiro) {  //Código para fazer uma comparação
+ // document.write("Parabéns! Acertou cara ! O número era " + numeroAleatorioInteiro);
+//} else {
+  //document.write("Perdeu playboy kkk! Eu pensei no número " + numeroAleatorioInteiro);
+//}
     </script>
 </body>
 
